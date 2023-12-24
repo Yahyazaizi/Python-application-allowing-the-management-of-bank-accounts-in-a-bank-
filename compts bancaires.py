@@ -125,17 +125,17 @@ while True:
         [print(obj.solde) for obj in t]
 
     elif x == 5:
-        solde = int(input("Entrez le solde: "))
+        mot_de_pass = input("Entrez le mot de passe puis devient modifié: ")
         for client in t:
             client.deposer(int(input("Entrez le montant à déposer: ")))
             print("La somme a été déposée avec succès.")
             break
 
     elif x == 6:
-        solde = int(input("Entrez le solde: "))
+        mot_de_pass = input("Entrez le mot de passe puis devient modifié: ")
         for client in t:
             client.retirer(int(input("Entrez le montant à retirer: ")))
-            print("La somme a été retirée avec succès.")
+            
             break
 
     elif x == 7:
